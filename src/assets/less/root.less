@@ -78,7 +78,7 @@
 @media only screen and (min-width: 0rem) {
     :root {
         /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
-        --primary: #F4D35E;
+        --primary: #61a60e;
         --primaryLight: #30d1e9;
         --primaryBreaker: #3074E977;
         --secondary: #F6EDDF;
@@ -811,7 +811,7 @@
         padding: 0 (16/16rem);
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
-        background: #ffffff;
+        background: #ffffff00;
         -webkit-backdrop-filter: blur(27px);
         backdrop-filter: blur(27px);
         position: fixed;
@@ -822,7 +822,7 @@
             content: "";
             width: 100%;
             height: 0%;
-            background: #02ce353d;
+            background: #02ce354f;
             opacity: 1;
             position: absolute;
             display: block;
@@ -900,7 +900,7 @@
             text-transform: uppercase;
             margin: 0;
             padding: 0 (16/16rem);
-            color: #2C3E50;
+            color: #ffffff;
             display: block;
             position: relative;
             z-index: 1;
@@ -909,9 +909,10 @@
             &:before {
                 /* on scroll background */
                 content: "";
+                border-radius: 30px;
                 width: 100%;
                 height: (40/16rem);
-                background: #F4D35E;
+                background: #61a60e;
                 opacity: 0;
                 position: absolute;
                 display: block;
@@ -947,28 +948,30 @@
             font-weight: 700;
             text-align: center;
             margin: 0;
-            color: #2C3E50;
+            color: #ffff;
             min-width: (150/16rem);
             padding: 0 (32/16rem);
             background-color: transparent;
-            border: 1px solid #F4D35E;
+            border: 1px solid #61a60e;
             display: inline-block;
             position: relative;
             z-index: 1;
             /* prevents padding from adding to the width */
             box-sizing: border-box;
+            border-radius: 30px;
 
             &:before {
                 content: "";
                 position: absolute;
                 height: 100%;
                 width: 0%;
-                background: #F4D35E;
+                background: #61a60e;
                 opacity: 1;
                 top: 0;
                 left: 0;
                 z-index: -1;
                 transition: width 0.3s;
+                border-radius: 30px;
             }
 
             &:hover {
@@ -1489,7 +1492,7 @@
             text-align: left;
             letter-spacing: 0.1rem;
             font-weight: 700;
-            color: #F4D35E;
+            color: #61a60e;
             margin-bottom: (16/16rem);
             display: block;
         }
@@ -1528,15 +1531,17 @@
             text-decoration: none;
             font-weight: 700;
             margin: 0 (20/16rem) (16/16rem) 0;
-            color: #2C3E50;
+            color: #fdfdfd;
             padding: 0;
             background-color: var(--primary);
             display: inline-block;
             position: relative;
             z-index: 1;
+            border-radius: 30px;
 
             &:before {
                 content: "";
+                border-radius: 30px;
                 position: absolute;
                 display: block;
                 height: 100%;
@@ -1576,9 +1581,11 @@
             align-items: center;
             position: relative;
             z-index: 1;
+            border-radius: 30px;
 
             &:before {
                 content: "";
+                border-radius: 30px;
                 color:#2C3E50;
                 position: absolute;
                 display: block;
@@ -1711,7 +1718,7 @@
             font-weight: 900;
             /* 24px - 32px */
             margin-bottom: clamp(1.5rem, 4vw, 2rem);
-            color: var(--primaryLight);
+            color: var(--primary);
             display: block;
         }
 
