@@ -78,7 +78,7 @@
 @media only screen and (min-width: 0rem) {
     :root {
         /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
-        --primary: #3074E9;
+        --primary: #F4D35E;
         --primaryLight: #30d1e9;
         --primaryBreaker: #3074E977;
         --secondary: #F6EDDF;
@@ -231,7 +231,7 @@
             transition:
                 transform 0.3s,
                 opacity 0.3s;
-            fill: #ffffff;
+            fill: #F4D35E;
         }
 
         .cs-sun {
@@ -811,7 +811,7 @@
         padding: 0 (16/16rem);
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
-        background: rgba(26, 26, 26, 0.08);
+        background: #ffffff;
         -webkit-backdrop-filter: blur(27px);
         backdrop-filter: blur(27px);
         position: fixed;
@@ -822,7 +822,7 @@
             content: "";
             width: 100%;
             height: 0%;
-            background: #1a1a1a;
+            background: #02ce353d;
             opacity: 1;
             position: absolute;
             display: block;
@@ -850,22 +850,21 @@
 
         .cs-logo {
             width: auto;
-            height: (60/16rem);
-            /* margin-right auto pushes everything away from it to the right */
+            height: 5rem; /* Adjust this value as needed to make the image bigger */
             margin: 0 auto 0 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             z-index: 100;
-
+        
             img {
-                width: 100%;
-                height: 100%;
-                /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
-                object-fit: contain;
+                width: auto; /* Maintain aspect ratio */
+                height: 100%; /* Make the image fill the height */
+                object-fit: contain; /* Ensures the image doesn't overflow */
             }
         }
+        
 
         .cs-ul-wrapper {
             /* absolutely positioned to be dead center */
@@ -901,7 +900,7 @@
             text-transform: uppercase;
             margin: 0;
             padding: 0 (16/16rem);
-            color: #C07F00;
+            color: #2C3E50;
             display: block;
             position: relative;
             z-index: 1;
@@ -912,7 +911,7 @@
                 content: "";
                 width: 100%;
                 height: (40/16rem);
-                background: #fff;
+                background: #F4D35E;
                 opacity: 0;
                 position: absolute;
                 display: block;
@@ -948,11 +947,11 @@
             font-weight: 700;
             text-align: center;
             margin: 0;
-            color: #fff;
+            color: #2C3E50;
             min-width: (150/16rem);
             padding: 0 (32/16rem);
             background-color: transparent;
-            border: 1px solid var(--primary);
+            border: 1px solid #F4D35E;
             display: inline-block;
             position: relative;
             z-index: 1;
@@ -964,7 +963,7 @@
                 position: absolute;
                 height: 100%;
                 width: 0%;
-                background: var(--primary);
+                background: #F4D35E;
                 opacity: 1;
                 top: 0;
                 left: 0;
@@ -1490,7 +1489,7 @@
             text-align: left;
             letter-spacing: 0.1rem;
             font-weight: 700;
-            color: var(--primaryLight);
+            color: #F4D35E;
             margin-bottom: (16/16rem);
             display: block;
         }
@@ -1529,7 +1528,7 @@
             text-decoration: none;
             font-weight: 700;
             margin: 0 (20/16rem) (16/16rem) 0;
-            color: #fff;
+            color: #2C3E50;
             padding: 0;
             background-color: var(--primary);
             display: inline-block;
@@ -1542,7 +1541,7 @@
                 display: block;
                 height: 100%;
                 width: 0%;
-                background: #000;
+                background: #8EB394;
                 opacity: 1;
                 top: 0;
                 left: 0;
@@ -1567,10 +1566,10 @@
             text-decoration: none;
             font-weight: 700;
             margin: 0;
-            color: #fff;
+            color: #f8f8f8;
             padding: 0;
             background-color: transparent;
-            border: 1px solid var(--bodyTextColorWhite);
+            border: 1px solid var(--primary);
             box-sizing: border-box;
             display: inline-flex;
             justify-content: center;
@@ -1580,9 +1579,10 @@
 
             &:before {
                 content: "";
+                color:#2C3E50;
                 position: absolute;
                 display: block;
-                background: #000;
+                background: #8EB394;
                 opacity: 1;
                 /* so it sits on top of the border */
                 top: -1px;
