@@ -1,6 +1,6 @@
 ---
-title: Sucos Creati
-description: Lorem markdownum Talia. Carinae equis.
+title: How to Build Wealth While Living Your Best Life: A Canadian’s Guide
+description: Discover how to grow your wealth with smart investments, use life insurance to protect your loved ones, and enjoy your lifestyle without financial stress.
 author: Code Stitch
 date: 2023-06-08T15:27:34.591Z
 tags:
