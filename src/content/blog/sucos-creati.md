@@ -1,5 +1,5 @@
 ---
-title: How to build wealth while living your best life
+title: "How to build wealth while living your best life"
 description: Discover how to grow your wealth with smart investments, use life insurance to protect your loved ones, and enjoy your lifestyle without financial stress.
 author: Code Stitch
 date: 2023-06-08T15:27:34.591Z

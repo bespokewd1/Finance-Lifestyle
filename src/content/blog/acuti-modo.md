@@ -1,5 +1,5 @@
 ---
-title: Achieving Your Financial Goals: How TFSAs and Life Insurance Can Help
+title: "Achieving Your Financial Goals: How TFSAs and Life Insurance Can Help"
 description: A deep dive into using TFSAs for tax-free savings, leveraging life insurance for long-term security, and setting achievable financial milestones for Canadians.
 author: Code Stitch
 date: 2023-06-08T15:26:46.705Z

@@ -1,5 +1,5 @@
 ---
-title: 5 Practical Steps to Take Control of Your Finances in Canada
+title: "5 Practical Steps to Take Control of Your Finances in Canada"
 description: Learn how to create a budget, maximize your savings using a TFSA, and plan for emergencies with real-world examples tailored to Canadian residents.
 author: Code Stitch
 date: 2023-06-08T15:28:08.486Z
